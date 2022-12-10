@@ -1,0 +1,21 @@
+main {
+    position: relative;
+    height: 90vmin;
+    background-color: var(--background-black);
+}
+
+.container__sobre {
+    text-align: center;
+}
+
+.geral__sobre{
+
+}
+
+.title_sobre {
+    
+}
+
+.description__sobre {
+
+}

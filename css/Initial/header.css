@@ -1,0 +1,30 @@
+.header__initial {
+    display: block;
+}
+
+.container__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: var(--background-itens);
+}
+
+.logo__home{
+    width: 3rem;
+    background-color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.link__menu {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+}
