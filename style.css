@@ -1,0 +1,29 @@
+@import url(/css/Initial/header.css);
+@import url(/css/Initial/main.css);
+@import url(/css/Initial/footer.css);
+
+:root {
+    --background-black: #000000;
+    --background-itens: #1A1C23;
+    --selecionado: #7E3AF2;
+    --color-title: #E5E7EB;
+    --color-subtitle: #9E9E9E;
+    --icons-menu: #CABFFD;
+    --icon1: #FFA51F;
+    --icon2: #0E9F6E;
+    --icon3: #0694A2;
+    --red-notification: #E02424;
+    --verde-background: #04C64E;
+    --font-base: arial, helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-base);
+    color: var(--color-title);
+}
