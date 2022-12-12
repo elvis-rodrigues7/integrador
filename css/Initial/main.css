@@ -1,21 +1,35 @@
-main {
+.main__initial {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    height: calc(100vh - 8.4rem);
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    margin: 0 auto;
+    width: 75vw;
+    height: 60%;
+    max-width: 1440px;
+}
+
+.tittle__banner {
     position: relative;
-    height: 90vmin;
-    background-color: var(--background-black);
-}
-
-.container__sobre {
-    text-align: center;
-}
-
-.geral__sobre{
+    font-size: 10rem;
+    animation-name: space;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 
 }
 
-.title_sobre {
-    
-}
-
-.description__sobre {
-
+@keyframes space {
+    0%   {top: 0;}
+    50%  {top: 100px;}
+    100% {top: 0;}
 }
