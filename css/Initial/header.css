@@ -62,3 +62,12 @@
     opacity: .2;
     scale: .98;
 }
+
+
+@media screen (max-widht:1200px){
+
+    .menu__item {
+        padding: 0.5rem 0.2rem;
+    }
+    
+}
